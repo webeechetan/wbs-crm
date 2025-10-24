@@ -520,9 +520,9 @@ div.dataTables_wrapper .dataTables_paginate .paginate_button:active{
 .avatar-initial img{
   border-radius: 50%;
  }
- .bg-label-primary{
+ /* .bg-label-primary{
    background-color: #fff!important;
- }
+ } */
  .avatar {
   margin: auto;
 }

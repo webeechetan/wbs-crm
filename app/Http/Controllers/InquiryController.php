@@ -78,7 +78,8 @@ class InquiryController extends Controller
         $users = User::all();
         
         // $inquiries = Inquiry::with('handledBy','logs')->orderBy('created_at','desc')->get();
-        return view('admin.inquiry.index', compact('inquiries','users','users_id'));
+        // return view('admin.inquiry.index', compact('inquiries','users','users_id'));
+        return view('admin.inquiry.index2', compact('inquiries','users','users_id'));
     }
 
     /**
